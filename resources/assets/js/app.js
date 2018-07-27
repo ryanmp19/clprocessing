@@ -22,7 +22,7 @@ import Toastr from './components/enso/bulma/toastr';
 import fontawesome from '@fortawesome/fontawesome';
 import FontAwesomeIcon from '@fortawesome/vue-fontawesome';
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+// Vue.component('example-component', require('./components/ExampleComponent.vue'));
 Vue.component('fa', FontAwesomeIcon);
 
 Vue.use(Toastr, {
