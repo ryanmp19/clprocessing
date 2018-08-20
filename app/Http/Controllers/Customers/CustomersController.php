@@ -5,13 +5,16 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Customer;
 use Config;
+use Datatables;
 
 class CustomersController extends Controller
 {
 	public function index()
 	{
-		$customers = Customer::all();
-		return view('customers.index', compact('customers'));
+		return Datatables::of(Customer::query()->with('name', 'ktp_number'))
+		->addColumn('customer_name', function($row){
+			return $row->
+		})
 		// return view('customers.index')->withDetails($customers);
 		// return view('customers.index');
 	}
