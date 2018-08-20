@@ -55,7 +55,7 @@ Route::get('/application/{application-id}', 'ApplicationController@show');
 ==============================================================
 */
 
-Route::get('/customer', 'CustomersController@index');
+Route::get('/customers', 'CustomersController@index');
 Route::get('/customer/create', 'CustomersController@create');
 Route::post('/customer', 'CustomersController@store');
 Route::get('/customer/{user-id}', 'CustomersController@show');

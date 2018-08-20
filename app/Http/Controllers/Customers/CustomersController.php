@@ -4,22 +4,16 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Customer;
-use App\NPWP;
 use Config;
-use Datatables;
 
 class CustomersController extends Controller
 {
 	public function index()
 	{
-		// return Datatables::of(Customer::query()->make(true));
-		// $customers = [
-		// 	'id'		=> 1, 
-		// 	'name'		=> 'test', 
-		// 	'createdby'	=> 1,
-		// ];
-		// return view('customers.index', compact($customers));
-		return view('customers.index');
+		$customers = Customer::all();
+		return view('customers.index', compact('customers'));
+		// return view('customers.index')->withDetails($customers);
+		// return view('customers.index');
 	}
 
 	public function create()

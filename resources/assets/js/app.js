@@ -16,8 +16,8 @@ window.Vue = require('vue');
  */
 
 import axios from 'axios';
-import VueTable from './components/enso/vuedatatable/VueTable.vue';
-import Toastr from './components/enso/bulma/toastr';
+// import VueTable from './components/enso/vuedatatable/VueTable.vue';
+// import Toastr from './components/enso/bulma/toastr';
 
 import fontawesome from '@fortawesome/fontawesome';
 import FontAwesomeIcon from '@fortawesome/vue-fontawesome';

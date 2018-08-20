@@ -205,7 +205,7 @@
 			--}}
 
 			{{-- Correspondent tab --}}
-			{{--
+			
 			<div class="tab-pane fade" id="correspondent" role="tabpanel" aria-labelledby="correspondent-tab">
 				<div class="form-group">
 					<label for="correspondent_address">Alamat</label>
@@ -250,7 +250,7 @@
 					</div>
 				</div>
 			</div>
-			--}}
+			
 
 			{{-- Emergency tab --}}
 			{{-- 

@@ -2,8 +2,15 @@
 
 @section('content')
 	<h1>Customer</h1>
-	<vue-table class="box"
-		path="administration.users.initTable"
-		id="users">
-	</vue-table>
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>Nama</th>
+				<th>No KTP</th>
+			</tr>
+		</thead>
+		<tbody>
+			
+		</tbody>
+	</table>
 @endsection
